@@ -1,0 +1,12 @@
+{
+    "python.formatting.provider": "black",
+    "python.testing.pytestArgs": [
+        "-c",
+        "${workspaceFolder}/pytest.ini"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.enabled": true
+}
